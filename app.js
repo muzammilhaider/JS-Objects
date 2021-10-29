@@ -41,3 +41,16 @@
 // alert("PIZZA \nPIZZ \nPIZ \nPI \nP");
 
 // ques 6
+// var email = "muzammilhaider@gmail.com";
+// alert("My email address is " + email);
+
+// ques 7
+// var book = "A smarter way to learn JavaScript";
+// alert(book);
+
+// ques 8
+// document.write("Yah! I can write HTML content through Javascript");
+
+// var data = "▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬";
+// alert(data);
+
