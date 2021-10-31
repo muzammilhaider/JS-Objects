@@ -411,3 +411,111 @@
 // else{
 //     document.write("Wrong operator");
 // }
+
+
+// chapter 12-13
+// ques1 
+// var chara = prompt("Enter character");
+// if(chara == "A"){
+//     document.write("65");
+// }
+// else if(chara == "65"){
+//     document.write("A");
+// }
+// else if(chara == "Z"){
+//     document.write("90");
+// }
+// else if(chara == "90"){
+//     document.write("Z");
+// }
+// else if(chara == "a"){
+//     document.write("97");
+// }
+// else if(chara == "97"){
+//     document.write("a");
+// }
+// else if(chara == "z"){
+//     document.write("122");
+// }
+// else if(chara == "122"){
+//     document.write("a");
+// }
+// else{
+//     document.write("Wrong input");
+// }
+
+// ques 2
+// var num1 = +prompt("Enter 1st number");
+// var num2 = +prompt("Enter 2nd number");
+// if(num1 > num2){
+//     document.write("Num1 is greater");
+// }
+// else if(num2 > num1){
+//     document.write("Num2 is greater");
+// }
+// else if(num1 == num2){
+//     document.write("Numbers are equal");
+// }
+
+// ques 3
+// var num = +prompt("Enter number");
+// if(num > 0){
+//     document.write("Positive");
+// }
+// else if(num < 0){
+//     document.write("Negative");
+// }
+// else if(num == 0){
+//     document.write("Zero");
+// }
+
+// ques 4
+// var vowels = ['a' , 'e' , 'i' ,'o' , 'u'];
+// var alphabet = prompt("Enter alphabet");
+// if(vowels.indexOf(alphabet) >= 0){
+//     document.write("Vowel");
+// }
+// else{
+//     document.write("Not vowel");
+// }
+
+// ques 5
+// var password1 = prompt("Enter password");
+// var password2 = prompt("Enter confirm password");
+// if(password1 === "" || password2 === ""){
+//     alert("Please enter your password");
+// }
+// else if(password1 === password2){
+//     document.write("Correct! The password you entered matches the original password");
+// }
+// else if(password1 != password2){
+//     document.write("Incorrect password");
+// }
+
+// ques 6
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+//     greeting = "Good day";
+// }
+// else {
+//     greeting = "Good evening";
+// }
+
+// ques 7
+// var inputTime = +prompt("Enter time");
+// if(inputTime >= 0000 && inputTime < 1200){
+//     document.write("Good morning!");
+// }
+// else if(inputTime >= 1200 && inputTime < 1700){
+//     document.write("Good afternoon!");
+// }
+// else if(inputTime >= 1700 && inputTime < 2100){
+//     document.write("Good evening!");
+// }
+// else if(inputTime >= 2100 && inputTime < 2359){
+//     document.write("Good night!");
+// }
+// else{
+//     document.write("Wrong input");
+// }
