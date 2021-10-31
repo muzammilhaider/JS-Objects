@@ -220,3 +220,194 @@
 // document.write("</tr>");
 // document.write("</table>");
 
+// chapter 9-11
+// ques 1
+// var city = prompt("Enter City");
+// if(city == "Karachi" || city == "karachi"){
+//     document.write("Welcome to city of lights");
+// }
+// else{
+//     document.write(city);
+// }
+
+// ques 2
+// var gender = prompt("Enter gender");
+// if(gender == "male" || gender == "Male"){
+//     document.write("Good Morning Sir");
+// }
+// else if(gender == "female" || gender == "Female"){
+//     document.write("Good Morning Ma'am");
+// }
+
+// ques 3
+// var color = prompt("Enter road traffic color");
+// if(color == "red" || color == "Red"){
+//     document.write("Must Stop");
+// }
+// else if(color == "yellow" || color == "Yellow"){
+//     document.write("Ready to move");
+// }
+// else if(color == "green" || color == "Green"){
+//     document.write("Move now");
+// }
+
+// ques 4
+// var fuel = +prompt("Enter fuel in litre");
+// if(fuel <= 0.25){
+//     document.write("Please refill the fuel in your car");
+// }
+
+// ques 5
+// a)
+// var a = 4;
+// if (++a === 5){
+//     alert("given condition for variable a is true");
+// }
+// yes
+
+// b)
+// var b = 82;
+// if (b++ === 83){
+//     alert("given condition for variable b is true");
+// }
+// no
+
+// c)
+// var c = 12;
+// if (c++ === 13){
+//     alert("condition 1 is true");
+// }
+// if (c === 13){
+//     alert("condition 2 is true");
+// }
+// if (++c < 14){
+//     alert("condition 3 is true");
+// }
+// if(c === 14){
+//     alert("condition 4 is true");
+// }
+// condition 2 and 4 is true
+
+// d)
+// var materialCost = 20000;
+// var laborCost = 2000;
+// var totalCost = materialCost + laborCost;
+// if (totalCost === laborCost + materialCost){
+//     alert("The cost equals");
+// }
+// yes
+
+// if (true){
+//     alert("True");
+// }
+// if (false){
+//     alert("False");
+// }
+// true
+
+// if("car" < "cat"){
+//     alert("car is smaller than cat");
+// }
+// yes
+
+// ques 6
+// var sub1 = +prompt("Enter 1st Subject Marks");
+// var sub2 = +prompt("Enter 2nd Subject Marks");
+// var sub3 = +prompt("Enter 3rd Subject Marks");
+// var obtainedMarks = sub1 + sub2 + sub3;
+// var totalMarks = 300;
+// var percentage = (obtainedMarks / totalMarks) * 100;
+// document.write("<h1>Marks Sheet</h1><br>");
+// document.write("Total Marks : " + totalMarks + "<br><br>");
+// document.write("Marks Obtained : " + obtainedMarks + "<br><br>");
+// document.write("Percentage : " + percentage + "<br><br>");
+
+// if(percentage >= 80){
+//     document.write("Grade : A-one<br><br>");
+//     document.write("Remarks : Excellent");
+// }
+// else if(percentage >= 70){
+//     document.write("Grade : A<br><br>");
+//     document.write("Remarks : Good");
+// }
+// else if(percentage >= 60){
+//     document.write("Grade : B <br><br>");
+//     document.write("Remarks : You need to improve");
+// }
+// else if(percentage < 60){
+//     document.write("Grade : Fail<br><br>");
+//     document.write("Remarks : Sorry");
+// }
+
+// ques 7
+// var secretNumber = 6;
+// var userNumber = +prompt("Enter number");
+// if(userNumber == secretNumber){
+//     document.write("Bingo! Correct answer");
+// }
+// if(secretNumber == ++userNumber){
+//     document.write("Close enough to the correct answer");
+// }
+
+// ques 8
+// var userInput = +prompt("Enter number");
+// var num = 3;
+// if(userInput % num == 0){
+//     document.write("Number is divisible by 3");
+// }
+// else{
+//     document.write("Number is not divisible by 3");
+// }
+
+// ques 9
+// var num = +prompt("Enter number");
+// if(num % 2 == 0){
+//     document.write("Even number");
+// }
+// else{
+//     document.write("Odd number");
+// }
+
+// ques 10
+// var temperature = +prompt("Enter temperature");
+// if(temperature > 40){
+//     document.write("It is too hot outside.");
+// }
+// else if(temperature > 30){
+//     document.write("The Weather today is Normal.");
+// }
+// else if(temperature > 20){
+//     document.write("Today’s Weather is cool");
+// }
+// else if(temperature > 10){
+//     document.write("OMG! Today’s weather is so Cool.");
+// }
+
+// ques 11
+// var num1 = +prompt("Enter 1st number");
+// var num2 = +prompt("Enter 2nd number");
+// var opt = prompt("Enter operator");
+// var total;
+// if(opt === "+"){
+//     total = num1 + num2;
+//     document.write("Sum of " + num1 + " and " + num2 + " is " + total);
+// }
+// else if(opt === "-"){
+//     total = num1 - num2;
+//     document.write("Subtraction of " + num1 + " and " + num2 + " is " + total);
+// }
+// else if(opt === "/"){
+//     total = num1 / num2;
+//     document.write("Division of " + num1 + " and " + num2 + " is " + total);
+// }
+// else if(opt === "*"){
+//     total = num1 * num2;
+//     document.write("Multiplication of " + num1 + " and " + num2 + " is " + total);
+// }
+// else if(opt === "%"){
+//     total = num1 % num2;
+//     document.write("Modulus of " + num1 + " and " + num2 + " is " + total);
+// }
+// else{
+//     document.write("Wrong operator");
+// }
