@@ -123,6 +123,101 @@
 // var result = num1 % num2;
 // document.write("Modulus of " + num1 + " and " + num2 + " is " + result);
 
+// ques 3
+// var variable1;
+// document.write("Value after variable declaration is: " + variable1);
+// variable1 = 5;
+// document.write("<br><br>Initial value: " + variable1);
+// variable1++;
+// document.write("<br><br>Value after increment is: " + variable1);
+// variable1 = variable1 + 7;
+// document.write("<br><br>Value after addition is: " + variable1);
+// variable1--;
+// document.write("<br><br>Value after decrement is: " + variable1);
+// variable1 = variable1 % 3;
+// document.write("<br><br>The remainder is : " + variable1);
+
+// ques 4
+// var movieTicket = 600;
+// var tickets = 5;
+// var totalCost = movieTicket * tickets;
+// document.write("Total cost to buy " + tickets + " tickets to a movie is " + totalCost + "PKR");
+
+// ques 5
+// var num = 4;
+// for(var i = 1; i <= 10; i++){
+//     document.write("<br>"+num + " * " + i + " = " + num*i);
+// }
+
+// ques 6
+// var cTemperature = 25;
+// document.write(cTemperature + "<sup>0</sup>C is " + (cTemperature * (9/5) + 32) + "<sup>0</sup>F<br><br>");
+// var fTemperature = 70;
+// document.write(fTemperature + "<sup>0</sup>F is " + ((fTemperature - 32)*5/9) + "<sup>0</sup>C");
+
+// ques 7
+// var price1 = 650;
+// var quantity1 = 3;
+// var price2 = 100;
+// var quantity2 = 7;
+// var shippingCharges = 100;
+
+// var totalCost = (price1 * quantity1) + (price2 * quantity2) + shippingCharges;
+// document.write("<h1>Shopping Cart</h1>");
+// document.write("Price of item 1 is " + price1);
+// document.write("<br><br>Quantity of item 1 is " + quantity1);
+// document.write("<br><br>Price of item 2 is " + price2);
+// document.write("<br><br>Quantity of item 2 is " + quantity2);
+// document.write("<br><br><br>Total cost of your order is " + totalCost);
+
+// ques 8
+// var totalMarks = 980;
+// var marksObtained = 804;
+// document.write("<h1>Marks Sheet</h1>");
+// document.write("Total Marks: " + totalMarks);
+// document.write("<br><br>Marks Obtained: " + marksObtained);
+// document.write("<br><br>Percentage: " + (marksObtained / totalMarks) * 100);
+
+// ques 9
+// var usDollar = 104.80;
+// var saudiRiyal = 28;
+// var total = (10*usDollar) + (25*saudiRiyal);
+// document.write("<h1>Currency in PKR</h1>");
+// document.write("Total currency in PKR: " + total);
+
+// ques 10
+// var num = 4;
+// var result = ((num + 5) * 10) / 2;
+// document.write(result); 
+
+// ques 11
+// var currentYear = 2021;
+// var birthYear = 1992;
+// document.write("Your age is: " + (currentYear - birthYear));
+
+// ques 12
+// var radius = 20;
+// var circumference = 2 * 3.142 * radius;
+// var area = 3.142 * Math.pow(radius,2);
+// document.write("<h1>The Geometrizer</h1>");
+// document.write("Radius of a circle: " + radius);
+// document.write("<br><br>The circumference is: " + circumference);
+// document.write("<br><br>The area is: " + area);
+
+// ques 13
+// var snack = "Chocolate chip";
+// var currentAge = 15;
+// var maximumAge = 65;
+// var amoutPerDay = 3;
+// document.write("<h1>The Lifetime Supply Calculator</h1>");
+// document.write("Favourite Snack: " + snack);
+// document.write("<br><br>Current Age: " + currentAge);
+// document.write("<br><br>Estimated Maximum Age: " + maximumAge);
+// document.write("<br><br>Amount of snacks per day: " + amoutPerDay);
+// document.write("<br><br>You will need " + (maximumAge - currentAge) * amoutPerDay + " " + snack + " to last you until the ripe old age of " + maximumAge);
+
+
+
 
 // chapter 6-9
 // ques 1
