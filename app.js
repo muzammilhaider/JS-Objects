@@ -614,3 +614,134 @@
 // else{
 //     document.write("Wrong input");
 // }
+
+
+
+
+// chapter 21 - 25
+// ques 1
+// var firstName = prompt("Enter first name");
+// var lastName = prompt("Enter last name");
+// var fullName = firstName + " " + lastName;
+// alert("Hello " + fullName);
+
+// ques 2
+// var phone = prompt("Enter your favourite phone");
+// document.write("My favourite phone is: " + phone);
+// document.write("<br>Length of string: " + phone.length);
+
+// ques 3
+// var str = "Pakistani";
+// document.write("String: " + str + "<br>Index of 'n': " + str.indexOf('n'));
+
+// ques 4
+// var str = "Hello World";
+// document.write("String: " + str + "<br>Last index of 'l': " + str.lastIndexOf('l'));
+
+// ques 5
+// var str = "Pakistani";
+// document.write("String: " + str + "<br>Character at index 3: " + str.charAt(3));
+
+// ques 6
+// var firstName = prompt("Enter first name");
+// var lastName = prompt("Enter last name");
+// var fullName = firstName.concat(lastName);
+// alert("Hello " + fullName);
+
+// ques 7
+// var str = "Hyderabad";
+// document.write("City: " + str);
+// for(var i = 0; i < str.length; i++){
+//     if(str.slice(i,i+5) == "Hyder"){
+//         str = str.slice(0,i) + "Islam" + str.slice(i+5);
+//     }
+// }
+// document.write("<br>After replacement: " + str);
+
+// ques 8
+// var message = "Ali and Sami are best friends. They play cricket and football together.";
+// document.write(message.replace(/and/g,'&'));
+
+// ques 9
+// var value = "472";
+// document.write("Value: " + value + "<br>Type: " + typeof(value));
+// value = parseInt(value);
+// document.write("<br>Value: " + value + "<br>Type: " + typeof(value));
+
+// ques 10
+// var userInput = prompt("Enter string");
+// document.write("User Input: " + userInput);
+// userInput = userInput.toUpperCase();
+// document.write("<br>Upper Case: " + userInput);
+
+// ques 11
+// var userInput = prompt("Enter string");
+// document.write("User Input: " + userInput);
+// var convertString = userInput[0].toUpperCase() + userInput.slice(1);
+// document.write("<br>Title Case: " + convertString); 
+
+// ques 12
+// var num = 35.56;
+// document.write("Number: "+num+"<br>");
+// num = num.toString();
+// num = num.replace('.',"");
+// document.write("Result: "+num);
+
+// ques 13
+// var username = prompt("Enter name");
+// var arr = ['@','.',',','!'];
+// var flag = false;
+// for(var i = 0;  i < arr.length; i++){
+//     if(username.includes(arr[i])==true){
+//         flag = true;
+//         alert("Please enter a valid username");
+//         break;
+//     }
+// }
+// if(!flag){
+//     alert("correct");
+// }
+
+// ques 14
+// var arr = ["cake","apple pie","cookie","chips","patties"];
+// var search = prompt("What do you want to order?").toLowerCase();
+// var flag = false;
+// for(var i = 0; i < arr.length; i++){
+//     if(arr[i] == search){
+//         document.write(`${arr[i]} is <b>available</b> at index ${i} in our bakery`);
+//         flag = true;
+//     }
+// }
+// if(!flag){
+//     document.write(`We are sorry. ${search} is <b>not available</b> in our bakery.`);
+// }
+
+// ques 15
+// var userPass = prompt("Enter password");
+// if(userPass[0] == isNaN(userPass)){
+//     alert("Password must be start from alphabet");
+// }
+// else if(userPass.match(/[a-z]/i) || userPass != isNaN(userPass)){
+//     alert("Password must be number or alphabet");
+// }
+// else{
+//     alert("correct");
+// }
+
+// ques 16
+// var str = "University of Karachi";
+// var arr = [];
+// arr = str.split("");
+// for(var i = 0;  i < arr.length; i++){
+//     document.write(arr[i]+"<br>");
+// }
+
+// ques 17
+// var userInput = prompt("Enter input");
+// var lastCharacter = userInput.slice(-1);
+// document.write(lastCharacter);
+
+// ques 18
+// var text = "The quick brown fox jumps over the lazy dog";
+// text = text.toLowerCase().split('the').length - 1;
+// document.write(text);
