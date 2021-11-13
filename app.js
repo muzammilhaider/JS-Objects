@@ -718,11 +718,14 @@
 
 // ques 15
 // var userPass = prompt("Enter password");
-// if(userPass[0] == isNaN(userPass)){
+// if(isNaN(userPass[0]) == false){
 //     alert("Password must be start from alphabet");
 // }
-// else if(userPass.match(/[a-z]/i) || userPass != isNaN(userPass)){
+// else if(!userPass.match(/[a-z]/i) || !isNaN(userPass)){
 //     alert("Password must be number or alphabet");
+// }
+// else if(userPass.length < 6){
+//     alert("Password must be 6 characters long");
 // }
 // else{
 //     alert("correct");
@@ -745,3 +748,57 @@
 // var text = "The quick brown fox jumps over the lazy dog";
 // text = text.toLowerCase().split('the').length - 1;
 // document.write(text);
+
+
+
+// chapter 26-30
+// ques 1
+// var num = +prompt("Enter number");
+// document.write("Number: "+num);
+// document.write("<br>Round off value: "+Math.round(num));
+// document.write("<br>Floor value: "+Math.floor(num));
+// document.write("<br>Ceil value: "+Math.ceil(num));
+
+// ques 2
+// var num = +prompt("Enter number");
+// document.write("Number: "+num);
+// document.write("<br>Round off value: "+Math.round(num));
+// document.write("<br>Floor value: "+Math.floor(num));
+// document.write("<br>Ceil value: "+Math.ceil(num));
+
+// ques 3
+// var num = -4;
+// document.write("The absolute value of "+num+" is " + Math.abs(num));
+
+// ques 4
+// var randNum = Math.floor((Math.random() * 10) + 1);
+// document.write("Random dice value: "+randNum);
+
+// ques 5
+// var randNum = Math.floor((Math.random() * 2) + 1);
+// document.write("Random dice value: "+randNum);
+// if(randNum == 1){
+//     document.write("<br>Random coin value: Heads");
+// }
+// else if(randNum == 2){
+//     document.write("<br>Random coin value: Tails");
+// }
+
+// ques 6
+// var randNum = Math.floor((Math.random() * 100) + 1);
+// document.write("Random number between 1 and 100: "+randNum);
+
+// ques 7
+// var userWeight = prompt("Enter weight");
+// var result = parseFloat(userWeight);
+// document.write(result);
+
+// ques 8
+// var userInput = +prompt("Enter number between 1 and 100");
+// var randNum = Math.floor((Math.random() * 10) + 1);
+// if(userInput == randNum){
+//     alert("Congratulations");
+// }
+// else{
+//     alert("Try again");
+// }
