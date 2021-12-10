@@ -802,3 +802,90 @@
 // else{
 //     alert("Try again");
 // }
+
+
+
+
+
+// Objects OBJECTS
+// ques 1
+// var itemsArray = [
+//     {
+//         name : 'juice',
+//         price : 50,
+//         quantity : 3,
+//     },
+//     {
+//         name : 'cookie',
+//         price : 30,
+//         quantity : 9,
+//     },
+//     {
+//         name : 'shirt',
+//         price : 880,
+//         quantity : 1,
+//     },
+//     {
+//         name : 'pen',
+//         price : 100,
+//         quantity : 2,
+//     }
+// ]
+// var sum = 0;
+// for(var i = 0; i < itemsArray.length; i++){
+//     itemsArray[i]['price'] *= itemsArray[i]['quantity']
+//     console.log(itemsArray[i]['name'],itemsArray[i]['price']);
+//     sum += itemsArray[i]['price'];
+// }
+// console.log(sum);
+
+// ques 2
+// var obj = {
+//     name : 'ali',
+//     email : 'ali@gmail.com',
+//     password : '123',
+//     age : 20,
+//     gender : 'male',
+//     city : 'karachi',
+//     country : 'Pakistan'
+// }
+
+// var checkAge = "age" in obj
+// console.log(checkAge);
+// var checkCountry = "country" in obj
+// console.log(checkCountry);
+// var firstName = "firstName" in obj
+// console.log(firstName);
+// var lastName = "lastName" in obj
+// console.log(lastName)
+
+// ques 3
+// function Std(name, stdclass, rollNo){
+//     this.name = name;
+//     this.stdclass = stdclass;
+//     this.rollNo = rollNo;
+// }
+
+// var std1 = new Std("ali", "morning", 101);
+// var std2 = new Std("ahmed", "morning", 102);
+// var std3 = new Std("John", "evening", 103);
+// var std4 = new Std("Doe", "evening", 104);
+
+// ques 4
+// function add(){
+//     function Records(name, gender, address, education, profession){
+//         this.name = name;
+//         this.gender = gender;
+//         this.address = address;
+//         this.education = education;
+//         this.profession = profession;
+//     }
+//     var name = document.getElementById('name');
+//     var gender = document.getElementById('gender');
+//     var address = document.getElementById('address');
+//     var education = document.getElementById('education');
+//     var profession = document.getElementById('profession');
+
+//     var r1 = new Records(name.value,gender.value,address.value,education.value,profession.options[profession.selectedIndex].value);
+//     console.log(r1);
+// }
